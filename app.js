@@ -239,7 +239,7 @@
 
   async function start() {
     try {
-      const response = await fetch("/catalog.json", { cache: "no-store" });
+      const response = await fetch("./catalog.json", { cache: "no-store" });
       if (!response.ok) throw new Error(`catalog ${response.status}`);
       catalog = await response.json();
       const shared = readSharedInputs();

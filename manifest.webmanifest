@@ -1,7 +1,7 @@
 {
   "name": "HostCost PK",
   "short_name": "HostCost PK",
-  "start_url": "/?source=installed",
+  "start_url": "./?source=installed",
   "display": "standalone",
   "background_color": "#07141c",
   "theme_color": "#07141c",
